@@ -3,6 +3,7 @@ function receivesAFunction (callback) {
 } 
 function returnsANamedFunction () {
     return function result() {
+        return "So excited";
     }
 }
 function returnsAnAnonymousFunction () {
